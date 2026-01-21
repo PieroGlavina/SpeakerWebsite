@@ -4,6 +4,12 @@
     --font-above: "Above", sans-serif;
 }
 
+*{
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+
+}
+
 @layer base {
     @font-face {
         font-family: 'Above';
